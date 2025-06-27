@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:todo_app/utils/task_categories.dart';
 
 class Task extends Equatable {
   final int? id;
@@ -6,7 +7,7 @@ class Task extends Equatable {
   final String note;
   final String time;
   final String date;
-  // final TaskCategory category;
+  final TaskCategories category;
   final bool isCompleted;
 
   const Task({
@@ -15,6 +16,7 @@ class Task extends Equatable {
     required this.note,
     required this.time,
     required this.date,
+    required this.category,
     required this.isCompleted,
   });
 

@@ -1,3 +1,4 @@
-# todo_app
+# Flutter Riverpod Todo App
 
-A new Flutter project.
+This is a simple Todo app built using Flutter and Riverpod, demonstrating how to perform CRUD (Create, Read, Update,
+Delete)
